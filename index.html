@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>AudioDance</title>
+	<style type="text/css" media="screen">
+		body {
+			/*background-color: #525152;*/
+			color: #DDD;
+			overflow: hidden;
+			margin: 0px;
+		}
+
+		h1 {
+			font-size: 40px;
+			text-shadow: 2px 3px 2px #333, 2px 3px 2px #DDD, 2px 3px 2px #DDD, 2px 4px 4px #75FFA9, 3px -3px 3px #BAFF75;
+		}
+		
+		canvas {
+		}
+	</style>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/paper.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+	$(function() {
+		AudioDance.play();
+	});
+	</script>
+</head>
+<body>
+	<!-- <h1>AudioDance</h1>
+		<h2>webkitAudioContextのサンプルだよ</h2> -->
+	
+	<canvas id="canvas" resize></canvas>
+	<img id="speaker" src="img/subscribe.jpeg" style="display:none;">
+</body>
+</html>
